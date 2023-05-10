@@ -1,10 +1,7 @@
 from flask import Flask
-import optparse
 import time
 
-
 app = Flask(__name__)
-
 start = int(round(time.time()))
 
 @app.route("/")
