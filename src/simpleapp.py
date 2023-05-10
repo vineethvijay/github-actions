@@ -1,5 +1,4 @@
 from flask import Flask
-import sys
 import optparse
 import time
 
