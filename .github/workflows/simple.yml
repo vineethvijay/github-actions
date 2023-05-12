@@ -1,0 +1,12 @@
+name: Python package
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install dependencies
+        run: |
+          wget https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.4.13/spring-boot-starter-web-2.4.13.jar
